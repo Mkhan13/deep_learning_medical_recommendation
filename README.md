@@ -5,9 +5,11 @@ People often struggle to interpret their symptoms and determine the appropriate 
 ---
 
 ## Data Source
-[Medical Chatbot Dataset](https://www.kaggle.com/datasets/redflame03/medical-chatbot-dataset-gen-ai)
-  
+[Medical Chatbot Dataset](https://www.kaggle.com/datasets/redflame03/medical-chatbot-dataset-gen-ai) on Kaggle
+- 463 rows and 11 columns
+- Structured clinical information linking symptoms, conditions, treatments, and demographic context
 
+This dataset provides a foundation for learning relationships between symptoms and potential conditions or therapeutic actions, which helps with the development of this symptom to recommendation model
 
 ---
 
