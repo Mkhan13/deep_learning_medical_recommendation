@@ -22,7 +22,7 @@ My project takes these diagnostic tools a step further by including treatment re
 ---
 
 ## Model Evaluation Process & Metric Selection   
-- **Metrics:**  
+- **Metrics:**
   - Accuracy  
   - Precision, Recall
   - F1-score  
@@ -35,17 +35,21 @@ All three approaches (naive, classical ML, and deep learning) are trained and ev
 ---
 
 ## Modeling Approach  
-1. **Naive Baseline:** 
-2. **Classical ML Approach:**  
-3. **Deep Learning Approach:**  
+1. **Naive Baseline:** Predicts the most common medical condition in the dataset
+2. **Classical ML Approach:** Uses TF-IDF features of the symptoms text to train a logistic regression classifier
+3. **Deep Learning Approach:** Fine-tunes a BERT text classification model to map symptoms to conditions
+
+
 ### Data Processing Pipeline  
 
+The raw dataset consists of symptom descriptions and corresponding medical conditions. Entries are split into train (80%), validation (10%), and test (10%) sets using a stratified split to preserve class distribution. The text is cleaned by lowercasing, removing punctuation, and normalizing spacing.
 
-
-The CSVs are saved under the following folder structure under `data/processed/`:
+The processed CSVs are stored under data/processed/:
 ```
 data/processed/
-
+├── train.csv
+├── val.csv
+└── test.csv
 ```
 
 ### Models Evaluated and Model Selected  
