@@ -5,9 +5,9 @@ People often struggle to interpret their symptoms and determine the appropriate 
 ---
 
 ## Data Source
-[Medical Chatbot Dataset](https://www.kaggle.com/datasets/redflame03/medical-chatbot-dataset-gen-ai) on Kaggle
-- 463 rows and 11 columns
-- Structured clinical information linking symptoms, conditions, treatments, and demographic context
+[Disease Diagnosis Dataset](https://www.kaggle.com/datasets/s3programmer/disease-diagnosis-dataset/data) on Kaggle
+- 2000+ rows
+- Symptom, diagnosis, and treatment columns
 
 This dataset provides a foundation for learning relationships between symptoms and potential conditions or therapeutic actions, which helps with the development of this symptom to recommendation model
 
@@ -25,8 +25,7 @@ My project takes these diagnostic tools a step further by including treatment re
 - **Metrics:**
   - Accuracy  
   - Precision, Recall
-  - F1-score  
-  - Confusion Matrix 
+  - F1-score
 
 - **Data Splits:** Stratified 80%/10%/10% split for train/validation/test 
 
@@ -54,7 +53,6 @@ data/processed/
 
 ### Models Evaluated and Model Selected  
 - **Evaluated Models:**
-
 
 - **Model Selected:**  
 
