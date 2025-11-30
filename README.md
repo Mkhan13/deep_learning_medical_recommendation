@@ -90,8 +90,8 @@ Streamlit site can be found here
 ## Instructions on How to Run the Code
 
 1. Clone the Repository  
-`git clone URL`  
-`cd FOLDER`
+`git clone https://github.com/Mkhan13/deep_learning_medical_recommendation.git`  
+`cd deep_learning_medical_recommendation`
 
 3. Install Dependencies  
 `pip install -r requirements.txt`
