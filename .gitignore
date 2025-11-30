@@ -1,3 +1,5 @@
 .venv
 .env
 /data
+/model_output
+/bert_model
