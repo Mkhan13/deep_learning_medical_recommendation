@@ -53,8 +53,15 @@ data/processed/
 
 ### Models Evaluated and Model Selected  
 - **Evaluated Models:**
+## Model Performance Comparison
 
-- **Model Selected:**  
+| Approach                  | Accuracy | Precision | Recall | F1-score | Notes |
+|---------------------------|----------|-----------|--------|----------|-------|
+| **Naive Baseline**        | 0.585    | 0.3422    | 0.585  | 0.4318   | Predicts the most common class |
+| **Classical ML** | 0.655 | 0.5722 | 0.655 | 0.607    | Best performance among models; strong for short text |
+| **Deep Learning** | 0.595    | 0.5544    | 0.595 | 0.5715   | Limited by short, sparse symptom text |
+
+- **Model Selected:**  Classical ML
 
 ### Comparison to Naive Approach  
 
